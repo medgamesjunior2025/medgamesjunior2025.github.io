@@ -101,10 +101,14 @@ body {
     width: 50vw;
 }
 
+.jlf {
+    display: none;
+}
+
 @media (min-width:641px) {
     .logo {
         right: 3vw;
-        width: 15vw;
+        width: 20vw;
     }
 
     .headers {
@@ -123,5 +127,13 @@ body {
         margin: 0;
         font-weight: 700;
         font-style: italic;
+    }
+
+    .jlf {
+        display: block;
+        position: fixed;
+        left: 3vw;
+        top: 0;
+        width: 20vw;
     }
 }
