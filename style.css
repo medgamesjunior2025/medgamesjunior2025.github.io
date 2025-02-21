@@ -62,6 +62,22 @@ body {
     }
 }
 
+.button-disabled {
+    background-color: #0f0f0f;
+    /* Primary color */
+    color: #ffffff;
+    /* White text */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(28, 155, 161, 0.3);
+    /* Subtle shadow */
+}
+
 .button {
     background-color: #30cebb;
     /* Primary color */
