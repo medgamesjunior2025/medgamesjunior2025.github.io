@@ -63,7 +63,7 @@ body {
 }
 
 .button-disabled {
-    background-color: #0f0f0f;
+    background-color: #cfcfcf;
     /* Primary color */
     color: #ffffff;
     /* White text */
