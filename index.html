@@ -69,14 +69,12 @@
                 clearInterval(countdownFunction);
                 document.getElementById("countdown").innerHTML = "EXPIRED";
                 document.getElementById("regButton").removeAttribute("disabled");
-                document.getElementById("regButton").removeClass("button-disabled");
-                document.getElementById("regButton").addClass("button");
+                document.getElementById("regButton").classList.remove("button-disabled");
+                document.getElementById("regButton").classList.add("button");
             }
         };
         countdownFunction();
-        setInterval(() => {
-            countdownFunction()
-        }, 1000);
+        setInterval(countdownFunction, 1000);
     </script>
 
 </body>
