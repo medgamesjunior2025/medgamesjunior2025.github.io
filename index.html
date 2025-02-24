@@ -68,7 +68,7 @@
             if (timeLeft < 0) {
                 clearInterval(countdownFunction);
                 document.getElementById("countdown").innerHTML = "EXPIRED";
-                document.getElementById("regButton").removeAttribute("disabled");
+
                 document.getElementById("regButton").classList.remove("button-disabled");
                 document.getElementById("regButton").classList.add("button");
             }
